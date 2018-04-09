@@ -4,23 +4,185 @@
 	padding:0px;
 	max-width:100%;
 }
+#bodysistemapolyhedra {
+	background-image:url(/img/fondopolyhedra.png);
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+}
+#cambiarimagendeperfil {
+	background-color:#31353D;
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+}
+.contentsimagenperfil {
+	width:600px;
+	height:400px;
+	background-color:#ADD8E6;
+	border-radius:8px;
+	margin-top:150px;
+	margin-left:400px;
+	text-align:center;
+	font-family:Signika;
+	color:#31353D;	
+}
+.contentsimagenperfil .contentsfoto {
+	width:100px;
+	height:100px;
+	margin-top:80px;
+	margin-left:235px;
+	background-color:#EEEFF7;
+	font-size:80px;
+}
+#documentos {
+	background-image:url(/img/fondopolyhedra.png);
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+}
+.contentsdocumentos {
+	margin-top:300px;
+	margin-left:0px;
+}
+.contentsdocumentos a {
+	display:block;	
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:50px;
+	background-color:#ADD8E6;
+	font-family:'Signika', sans-serif;
+	font-size:20px;
+	color:#31353D;
+	text-decoration:none;
+}
 body{
 	background-color:rgba(49, 53, 61, 0.7);	
 }
-.barprofile {
-	display:flex;
-	flex-direction:column;
-	margin-top:10px;
-	margin-left:2%;
+#barprofile {
+	display:block;
 	width:300px;
-	height:1200px;
-	background-color:#1C1D21;
+	height:280px;
+	background-color:#EEEFF7;
+	margin-top:2px;
+	padding-top:8px;
+	color:#1C1D21;
+	font-size:86px;
+}
+.logoperfil {
+	width:150px;
+	height:150px;
+	margin-left:65px;
 }
 .iconprofile {
-	display:flex;
-	margin-top:2px;
-	width:300px;
-	height:300px;
-	background-color:#EEEFF7;
+	margin-left:65px;
 }
+nav a{
+	display:block;	
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:14px;
+	background-color:#EEEFF7;
+	font-family:'Signika', sans-serif;
+	font-size:12px;
+	color:#31353D;
+	text-decoration:none;
+}
+.administradormodulos {
+	display:block;
+}
+.administradormodulos a {
+	display:block;	
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:50px;
+	background-color:#EEEFF7;
+	font-family:'Signika', sans-serif;
+	font-size:20px;
+	color:#31353D;
+	text-decoration:none;
+}
+.jefedeinventariocasosdeuso {
 
+}
+.jefedeinventariocasosdeuso a {
+	display:block;	
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:50px;
+	background-color:#EEEFF7;
+	font-family:'Signika', sans-serif;
+	font-size:20px;
+	color:#31353D;
+	text-decoration:none;	
+}
+.jefedeproduccioncasosdeuso {
+
+}
+.jefedeproduccioncasosdeuso a {
+	display:block;	
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:50px;
+	background-color:#EEEFF7;
+	font-family:'Signika', sans-serif;
+	font-size:20px;
+	color:#31353D;
+	text-decoration:none;	
+}
+.clienteacciones {
+
+}
+.clienteacciones a {
+	display:block;	
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:50px;
+	background-color:#EEEFF7;
+	font-family:'Signika', sans-serif;
+	font-size:20px;
+	color:#31353D;
+	text-decoration:none;	
+}
+.titulosistema {
+	margin-top:30px;
+	margin-left:480px;
+	width:300px;
+	height:130px;	
+	background-color:rgba(49, 53, 61, 0.7);
+	text-align:center;
+	color:#EEEFF7;
+	font-family:'Signika', sans-serif;
+	border-radius:8px;
+	font-weight:bold;
+	font-style:oblique;
+}
+.logotitulo {
+	width:90px;
+	height:90px;
+}
+.contentssistema {
+	margin-top:125px;
+	margin-left:500px;
+}
+.contentssistema a {
+	display:block;
+	margin-top:2px;	
+	padding-left:30px;
+	width:300px;
+	height:50px;
+	background-color:#ADD8E6;
+	font-family:'Signika', sans-serif;
+	font-size:20px;
+	color:#31353D;
+	text-decoration:none;
+}
