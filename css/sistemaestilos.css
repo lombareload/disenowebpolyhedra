@@ -23,8 +23,8 @@
 	height:400px;
 	background-color:#ADD8E6;
 	border-radius:8px;
-	margin-top:150px;
-	margin-left:400px;
+	margin-top:0px;
+	margin-left:260px;
 	text-align:center;
 	font-family:Signika;
 	color:#31353D;	
@@ -65,7 +65,7 @@ body{
 }
 #barprofile {
 	display:block;
-	width:300px;
+	width:240px;
 	height:280px;
 	background-color:#EEEFF7;
 	margin-top:2px;

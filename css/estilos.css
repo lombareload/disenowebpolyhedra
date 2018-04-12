@@ -53,8 +53,6 @@ header label {
 	width:30px;
 	height:30px;
 	padding:10px;
-
-
 }
 .menu ul {
 	display:flex;
@@ -235,6 +233,19 @@ header label {
 	background-repeat:no-repeat;
 	background-size:100% 750px;
 }
+#contenedorcontenedorcontenedor{
+	margin:0 auto;
+	background-image:url("   /img/backgroundlogin.png");
+	background-repeat:no-repeat;
+	background-size:100% 750px;
+}
+.portafoliodeproductos {
+	display:flex;
+	margin:2%;
+	margin-top:4%;
+	height:600px;
+	background-color:#31353D;
+}
 .contentslogin {
 	margin:0 auto;
 	margin-top:120px;
@@ -320,6 +331,17 @@ input[type="submit"].botonenviar {
 }
 input[type="radio"].inputgenero {
 	margin-left:8px;
+}
+footer .lastcontenedor a {
+	display:block;
+	margin:20px 20px;
+	color:#EEEFF7;
+	text-decoration:none;
+	font-family:'Signika', sans-serif;
+	font-style:normal;
+	font-size:115%;
+	text-align:center;
+	background-size:85%;
 }
 @media (max-width:600px) {
 	header label{
