@@ -10,6 +10,21 @@ body {
 	margin-left:0;
 	margin-right:auto;
 }
+#bodycerrarsesion{	
+	background-image:url("/img/backgroundlogin.png");
+}
+#bodycerrarsesion .susesionhafinalizado {
+	width:600px;
+	height:50px;
+	margin-top:150px;
+	margin-left:25%;
+	background-color:rgba(173, 216, 230, 0.7);
+	border-radius:8px;
+	text-align:center;
+	font-family:'Signika', sans-serif;
+	font-size:40px;
+	color:#EEEFF7;
+}
 header {
 	width:100%;
 	position:fixed;
@@ -38,8 +53,6 @@ header label {
 	width:30px;
 	height:30px;
 	padding:10px;
-
-
 }
 .menu ul {
 	display:flex;
@@ -83,7 +96,8 @@ header label {
 .imagenopaca {
 	display:flex;
 	margin-top:10%;
-	width:auto;flex-flow:column;
+	width:auto;
+	flex-flow:column;
 	height:500px;
 }
 .imagenopaca:hover {
@@ -173,7 +187,7 @@ header label {
 	width:auto;
 	height:180px;
 	background-color:none;
-	text-align:center;
+	
 }
 .lastcontents {
 	display:flex;
@@ -183,11 +197,10 @@ header label {
 	margin-right:2%;
 	width:auto;
 	height:110px;
-	background-color:#31353D;
-	text-align:center;
+	background-color:#31353D;	
 }
 .lastuno, .lastdos, .lasttres {
-	display:flex;
+	text-align:center;
 	width:420px;
 	height:110px;
 	border-style:solid;
@@ -197,13 +210,11 @@ header label {
 	text-decoration:none;
 	font-family:'Signika', sans-serif;
 	font-style:normal;
-	font-size:115%;
-	text-align:center;
+	font-size:100%;	
 	background-size:85%;
 }
-
 .lastbar {
-	display:flex;
+	text-align:center;
 	margin:2%;
 	height:70px;
 	background-color:#1C1D21;
@@ -215,13 +226,25 @@ header label {
 	font-style:normal;
 	font-size:100%;
 	content:center;
-	text-align:center;
 }
 #contenedorlogin {
 	margin:0 auto;
 	background-image:url("../img/backgroundlogin.png");
 	background-repeat:no-repeat;
 	background-size:100% 750px;
+}
+#contenedorcontenedorcontenedor{
+	margin:0 auto;
+	background-image:url("   /img/backgroundlogin.png");
+	background-repeat:no-repeat;
+	background-size:100% 750px;
+}
+.portafoliodeproductos {
+	display:flex;
+	margin:2%;
+	margin-top:4%;
+	height:600px;
+	background-color:#31353D;
 }
 .contentslogin {
 	margin:0 auto;
@@ -256,6 +279,16 @@ input[type="submit"].botonlogin {
 	color:#EEEFF7;
 	border-radius:8px;
 	margin-bottom:10px;
+}
+.ingresarsistemapolyhedra a {
+	margin-top:30px;
+	width:150px;
+	height:50px;
+	background-color:#ADD8E6;
+	text-decoration:none;
+	border-radius:8px;
+	font-size:100%;
+	font-family:Signika;
 }
 #contenedorcrearcuenta {
 	margin:0 auto;
@@ -299,6 +332,17 @@ input[type="submit"].botonenviar {
 input[type="radio"].inputgenero {
 	margin-left:8px;
 }
+footer .lastcontenedor a {
+	display:block;
+	margin:20px 20px;
+	color:#EEEFF7;
+	text-decoration:none;
+	font-family:'Signika', sans-serif;
+	font-style:normal;
+	font-size:115%;
+	text-align:center;
+	background-size:85%;
+}
 @media (max-width:600px) {
 	header label{
 		display:block;
@@ -312,7 +356,7 @@ input[type="radio"].inputgenero {
 		background-color:#1C1D21;
 		width:40%;
 		margin-left:-60%;
-		transition:all 0.7s;
+		transition:all 0.7s;		
 	}
 	.menu a:hover {
 		background-color:#ADD8E6;
